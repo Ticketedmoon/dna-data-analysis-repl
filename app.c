@@ -15,8 +15,9 @@ struct Row {
 };
 
 // Consants
-const char* PROMPT_FOR_FUNCTION_SELECT = "If you need to see the function options again, enter `0`\n"
-										 "Please input a number from the ordered list to execute that function: ";
+const char* PROMPT_FOR_FUNCTION_SELECT = 
+	"If you need to see the function options again, enter `0`\n"
+	"Please input a number from the ordered list to execute that function: ";
 
 // Global variables
 size_t TOTAL_LINES = 0;
